@@ -1,0 +1,1490 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Lineata"
+Date "2021-08-02"
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW49
+U 1 1 6006225D
+P 4600 5400
+F 0 "SW49" H 4600 5685 50  0000 C CNN
+F 1 "SW_Push" H 4600 5594 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4600 5600 50  0001 C CNN
+F 3 "~" H 4600 5600 50  0001 C CNN
+	1    4600 5400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 5500
+NoConn ~ 6000 5600
+NoConn ~ 4800 5600
+$Comp
+L power:GND #PWR03
+U 1 1 603C07E8
+P 4800 5500
+F 0 "#PWR03" H 4800 5250 50  0001 C CNN
+F 1 "GND" V 4805 5372 50  0000 R CNN
+F 2 "" H 4800 5500 50  0001 C CNN
+F 3 "" H 4800 5500 50  0001 C CNN
+	1    4800 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 603C7DA9
+P 6000 5400
+F 0 "#PWR01" H 6000 5150 50  0001 C CNN
+F 1 "GND" V 6005 5272 50  0000 R CNN
+F 2 "" H 6000 5400 50  0001 C CNN
+F 3 "" H 6000 5400 50  0001 C CNN
+	1    6000 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 603CC4FA
+P 6000 5300
+F 0 "#PWR02" H 6000 5050 50  0001 C CNN
+F 1 "GND" V 6005 5172 50  0000 R CNN
+F 2 "" H 6000 5300 50  0001 C CNN
+F 3 "" H 6000 5300 50  0001 C CNN
+	1    6000 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 603D0E74
+P 4400 5400
+F 0 "#PWR04" H 4400 5150 50  0001 C CNN
+F 1 "GND" V 4405 5272 50  0000 R CNN
+F 2 "" H 4400 5400 50  0001 C CNN
+F 3 "" H 4400 5400 50  0001 C CNN
+	1    4400 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Arduino:Sparkfun_Pro_Micro U1
+U 1 1 6006C2AC
+P 5400 5000
+F 0 "U1" H 5400 5889 60  0000 C CNN
+F 1 "Sparkfun_Pro_Micro" H 5400 5783 60  0000 C CNN
+F 2 "Custom Libraries & Footprints:Sparkfun_Pro_Micro" H 5400 4350 60  0001 C CNN
+F 3 "" H 5500 3950 60  0001 C CNN
+	1    5400 5000
+	-1   0    0    1   
+$EndComp
+NoConn ~ 4800 5300
+$Comp
+L Switch:SW_Push SW48
+U 1 1 603B1AD0
+P 10600 2700
+F 0 "SW48" V 10554 2848 50  0000 L CNN
+F 1 "SW_Push" V 10645 2848 50  0000 L CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 10600 2900 50  0001 C CNN
+F 3 "~" H 10600 2900 50  0001 C CNN
+	1    10600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 600D17C3
+P 10400 2550
+F 0 "D48" V 10354 2630 50  0000 L CNN
+F 1 "D" V 10445 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10400 2550 50  0001 C CNN
+F 3 "~" H 10400 2550 50  0001 C CNN
+	1    10400 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 600D17BD
+P 10400 2150
+F 0 "D47" V 10354 2230 50  0000 L CNN
+F 1 "D" V 10445 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10400 2150 50  0001 C CNN
+F 3 "~" H 10400 2150 50  0001 C CNN
+	1    10400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 600D17B7
+P 10400 1800
+F 0 "D46" V 10354 1880 50  0000 L CNN
+F 1 "D" V 10445 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10400 1800 50  0001 C CNN
+F 3 "~" H 10400 1800 50  0001 C CNN
+	1    10400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 600D17B1
+P 10400 1450
+F 0 "D45" V 10354 1530 50  0000 L CNN
+F 1 "D" V 10445 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10400 1450 50  0001 C CNN
+F 3 "~" H 10400 1450 50  0001 C CNN
+	1    10400 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 600D00F6
+P 9600 2550
+F 0 "D44" V 9554 2630 50  0000 L CNN
+F 1 "D" V 9645 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 2550 50  0001 C CNN
+F 3 "~" H 9600 2550 50  0001 C CNN
+	1    9600 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 600D00F0
+P 9600 2150
+F 0 "D43" V 9554 2230 50  0000 L CNN
+F 1 "D" V 9645 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 2150 50  0001 C CNN
+F 3 "~" H 9600 2150 50  0001 C CNN
+	1    9600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 600D00EA
+P 9600 1800
+F 0 "D42" V 9554 1880 50  0000 L CNN
+F 1 "D" V 9645 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 1800 50  0001 C CNN
+F 3 "~" H 9600 1800 50  0001 C CNN
+	1    9600 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 600D00E4
+P 9600 1450
+F 0 "D41" V 9554 1530 50  0000 L CNN
+F 1 "D" V 9645 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9600 1450 50  0001 C CNN
+F 3 "~" H 9600 1450 50  0001 C CNN
+	1    9600 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 600CAA0F
+P 8800 2550
+F 0 "D40" V 8754 2630 50  0000 L CNN
+F 1 "D" V 8845 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8800 2550 50  0001 C CNN
+F 3 "~" H 8800 2550 50  0001 C CNN
+	1    8800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 600CAA09
+P 8800 2150
+F 0 "D39" V 8754 2230 50  0000 L CNN
+F 1 "D" V 8845 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8800 2150 50  0001 C CNN
+F 3 "~" H 8800 2150 50  0001 C CNN
+	1    8800 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 600CAA03
+P 8800 1800
+F 0 "D38" V 8754 1880 50  0000 L CNN
+F 1 "D" V 8845 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8800 1800 50  0001 C CNN
+F 3 "~" H 8800 1800 50  0001 C CNN
+	1    8800 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 600CA9FD
+P 8800 1450
+F 0 "D37" V 8754 1530 50  0000 L CNN
+F 1 "D" V 8845 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8800 1450 50  0001 C CNN
+F 3 "~" H 8800 1450 50  0001 C CNN
+	1    8800 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 600C9336
+P 8000 2550
+F 0 "D36" H 8000 2767 50  0000 C CNN
+F 1 "D" V 8000 2676 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8000 2550 50  0001 C CNN
+F 3 "~" H 8000 2550 50  0001 C CNN
+	1    8000 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 600C9330
+P 8000 2150
+F 0 "D35" V 7954 2230 50  0000 L CNN
+F 1 "D" V 8045 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8000 2150 50  0001 C CNN
+F 3 "~" H 8000 2150 50  0001 C CNN
+	1    8000 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 600C932A
+P 8000 1800
+F 0 "D34" V 7954 1880 50  0000 L CNN
+F 1 "D" V 8045 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8000 1800 50  0001 C CNN
+F 3 "~" H 8000 1800 50  0001 C CNN
+	1    8000 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 600C9324
+P 8000 1450
+F 0 "D33" V 7954 1530 50  0000 L CNN
+F 1 "D" V 8045 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8000 1450 50  0001 C CNN
+F 3 "~" H 8000 1450 50  0001 C CNN
+	1    8000 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 600C7ACB
+P 7200 2550
+F 0 "D32" V 7154 2630 50  0000 L CNN
+F 1 "D" V 7245 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 2550 50  0001 C CNN
+F 3 "~" H 7200 2550 50  0001 C CNN
+	1    7200 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 600C7AC5
+P 7200 2150
+F 0 "D31" V 7154 2230 50  0000 L CNN
+F 1 "D" V 7245 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 2150 50  0001 C CNN
+F 3 "~" H 7200 2150 50  0001 C CNN
+	1    7200 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 600C7ABF
+P 7200 1800
+F 0 "D30" V 7154 1880 50  0000 L CNN
+F 1 "D" V 7245 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 1800 50  0001 C CNN
+F 3 "~" H 7200 1800 50  0001 C CNN
+	1    7200 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 600C7AB9
+P 7200 1450
+F 0 "D29" V 7154 1530 50  0000 L CNN
+F 1 "D" V 7245 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 1450 50  0001 C CNN
+F 3 "~" H 7200 1450 50  0001 C CNN
+	1    7200 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 600C6240
+P 6400 2550
+F 0 "D28" V 6354 2630 50  0000 L CNN
+F 1 "D" V 6445 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 2550 50  0001 C CNN
+F 3 "~" H 6400 2550 50  0001 C CNN
+	1    6400 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 600C623A
+P 6400 2150
+F 0 "D27" V 6354 2230 50  0000 L CNN
+F 1 "D" V 6445 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 2150 50  0001 C CNN
+F 3 "~" H 6400 2150 50  0001 C CNN
+	1    6400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 600C6234
+P 6400 1800
+F 0 "D26" V 6354 1880 50  0000 L CNN
+F 1 "D" V 6445 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 1800 50  0001 C CNN
+F 3 "~" H 6400 1800 50  0001 C CNN
+	1    6400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 600C622E
+P 6400 1450
+F 0 "D25" V 6354 1530 50  0000 L CNN
+F 1 "D" V 6445 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 1450 50  0001 C CNN
+F 3 "~" H 6400 1450 50  0001 C CNN
+	1    6400 1450
+	0    1    1    0   
+$EndComp
+Connection ~ 10800 1950
+Connection ~ 10800 2300
+Wire Wire Line
+	10800 2300 10800 1950
+Wire Wire Line
+	10800 2300 10800 2700
+Wire Wire Line
+	10800 1600 10800 1950
+Connection ~ 10000 1950
+Wire Wire Line
+	10000 1950 10000 1600
+Connection ~ 10000 2300
+Wire Wire Line
+	10000 1950 10000 2300
+Wire Wire Line
+	10000 2700 10000 2300
+Connection ~ 9200 1950
+Wire Wire Line
+	9200 1950 9200 1600
+Connection ~ 9200 2300
+Wire Wire Line
+	9200 2300 9200 1950
+Wire Wire Line
+	9200 2700 9200 2300
+Connection ~ 8400 1950
+Wire Wire Line
+	8400 1950 8400 1600
+Connection ~ 8400 2300
+Wire Wire Line
+	8400 2300 8400 1950
+Wire Wire Line
+	8400 2700 8400 2300
+Connection ~ 7600 1950
+Wire Wire Line
+	7600 1950 7600 1600
+Connection ~ 7600 2300
+Wire Wire Line
+	7600 2300 7600 1950
+Wire Wire Line
+	7600 2700 7600 2300
+Connection ~ 6800 1950
+Wire Wire Line
+	6800 1600 6800 1950
+Connection ~ 6800 2300
+Wire Wire Line
+	6800 1950 6800 2300
+Wire Wire Line
+	6800 2700 6800 2300
+$Comp
+L Switch:SW_Push SW47
+U 1 1 60062257
+P 10600 2300
+F 0 "SW47" H 10600 2585 50  0000 C CNN
+F 1 "SW_Push" H 10600 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 10600 2500 50  0001 C CNN
+F 3 "~" H 10600 2500 50  0001 C CNN
+	1    10600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW46
+U 1 1 60062251
+P 10600 1950
+F 0 "SW46" H 10600 2235 50  0000 C CNN
+F 1 "SW_Push" H 10600 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 10600 2150 50  0001 C CNN
+F 3 "~" H 10600 2150 50  0001 C CNN
+	1    10600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW44
+U 1 1 6006224B
+P 9800 2700
+F 0 "SW44" H 9800 2985 50  0000 C CNN
+F 1 "SW_Push" H 9800 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 9800 2900 50  0001 C CNN
+F 3 "~" H 9800 2900 50  0001 C CNN
+	1    9800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW43
+U 1 1 60062245
+P 9800 2300
+F 0 "SW43" H 9800 2585 50  0000 C CNN
+F 1 "SW_Push" H 9800 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 9800 2500 50  0001 C CNN
+F 3 "~" H 9800 2500 50  0001 C CNN
+	1    9800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW42
+U 1 1 6006223F
+P 9800 1950
+F 0 "SW42" H 9800 2235 50  0000 C CNN
+F 1 "SW_Push" H 9800 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 9800 2150 50  0001 C CNN
+F 3 "~" H 9800 2150 50  0001 C CNN
+	1    9800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW41
+U 1 1 60062239
+P 9800 1600
+F 0 "SW41" H 9800 1885 50  0000 C CNN
+F 1 "SW_Push" H 9800 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 9800 1800 50  0001 C CNN
+F 3 "~" H 9800 1800 50  0001 C CNN
+	1    9800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW45
+U 1 1 60062233
+P 10600 1600
+F 0 "SW45" H 10600 1885 50  0000 C CNN
+F 1 "SW_Push" H 10600 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 10600 1800 50  0001 C CNN
+F 3 "~" H 10600 1800 50  0001 C CNN
+	1    10600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW40
+U 1 1 6006222D
+P 9000 2700
+F 0 "SW40" H 9000 2985 50  0000 C CNN
+F 1 "SW_Push" H 9000 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 9000 2900 50  0001 C CNN
+F 3 "~" H 9000 2900 50  0001 C CNN
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW39
+U 1 1 60062227
+P 9000 2300
+F 0 "SW39" H 9000 2585 50  0000 C CNN
+F 1 "SW_Push" H 9000 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 9000 2500 50  0001 C CNN
+F 3 "~" H 9000 2500 50  0001 C CNN
+	1    9000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW38
+U 1 1 60062221
+P 9000 1950
+F 0 "SW38" H 9000 2235 50  0000 C CNN
+F 1 "SW_Push" H 9000 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 9000 2150 50  0001 C CNN
+F 3 "~" H 9000 2150 50  0001 C CNN
+	1    9000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 6006221B
+P 9000 1600
+F 0 "SW37" H 9000 1885 50  0000 C CNN
+F 1 "SW_Push" H 9000 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 9000 1800 50  0001 C CNN
+F 3 "~" H 9000 1800 50  0001 C CNN
+	1    9000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW36
+U 1 1 60062215
+P 8200 2700
+F 0 "SW36" H 8200 2985 50  0000 C CNN
+F 1 "SW_Push" H 8200 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.25u_PCB" H 8200 2900 50  0001 C CNN
+F 3 "~" H 8200 2900 50  0001 C CNN
+	1    8200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW35
+U 1 1 6006220F
+P 8200 2300
+F 0 "SW35" H 8200 2585 50  0000 C CNN
+F 1 "SW_Push" H 8200 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 8200 2500 50  0001 C CNN
+F 3 "~" H 8200 2500 50  0001 C CNN
+	1    8200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW34
+U 1 1 60062209
+P 8200 1950
+F 0 "SW34" H 8200 2235 50  0000 C CNN
+F 1 "SW_Push" H 8200 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 8200 2150 50  0001 C CNN
+F 3 "~" H 8200 2150 50  0001 C CNN
+	1    8200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW32
+U 1 1 60062203
+P 7400 2700
+F 0 "SW32" H 7400 2985 50  0000 C CNN
+F 1 "SW_Push" H 7400 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.75u_PCB" H 7400 2900 50  0001 C CNN
+F 3 "~" H 7400 2900 50  0001 C CNN
+	1    7400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW31
+U 1 1 600621FD
+P 7400 2300
+F 0 "SW31" H 7400 2585 50  0000 C CNN
+F 1 "SW_Push" H 7400 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 7400 2500 50  0001 C CNN
+F 3 "~" H 7400 2500 50  0001 C CNN
+	1    7400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 600621F7
+P 7400 1950
+F 0 "SW30" H 7400 2235 50  0000 C CNN
+F 1 "SW_Push" H 7400 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 7400 2150 50  0001 C CNN
+F 3 "~" H 7400 2150 50  0001 C CNN
+	1    7400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 600621F1
+P 7400 1600
+F 0 "SW29" H 7400 1885 50  0000 C CNN
+F 1 "SW_Push" H 7400 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 7400 1800 50  0001 C CNN
+F 3 "~" H 7400 1800 50  0001 C CNN
+	1    7400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW33
+U 1 1 600621EB
+P 8200 1600
+F 0 "SW33" H 8200 1885 50  0000 C CNN
+F 1 "SW_Push" H 8200 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 8200 1800 50  0001 C CNN
+F 3 "~" H 8200 1800 50  0001 C CNN
+	1    8200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 600621E5
+P 6600 2700
+F 0 "SW28" H 6600 2985 50  0000 C CNN
+F 1 "SW_Push" H 6600 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_2.00u_PCB" H 6600 2900 50  0001 C CNN
+F 3 "~" H 6600 2900 50  0001 C CNN
+	1    6600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 600621DF
+P 6600 2300
+F 0 "SW27" H 6600 2585 50  0000 C CNN
+F 1 "SW_Push" H 6600 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 6600 2500 50  0001 C CNN
+F 3 "~" H 6600 2500 50  0001 C CNN
+	1    6600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 600621D9
+P 6600 1950
+F 0 "SW26" H 6600 2235 50  0000 C CNN
+F 1 "SW_Push" H 6600 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 6600 2150 50  0001 C CNN
+F 3 "~" H 6600 2150 50  0001 C CNN
+	1    6600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 600621D3
+P 6600 1600
+F 0 "SW25" H 6600 1885 50  0000 C CNN
+F 1 "SW_Push" H 6600 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 6600 1800 50  0001 C CNN
+F 3 "~" H 6600 1800 50  0001 C CNN
+	1    6600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 600C2853
+P 5600 2550
+F 0 "D24" V 5554 2630 50  0000 L CNN
+F 1 "D" V 5645 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 2550 50  0001 C CNN
+F 3 "~" H 5600 2550 50  0001 C CNN
+	1    5600 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 600C284D
+P 5600 2150
+F 0 "D23" V 5554 2230 50  0000 L CNN
+F 1 "D" V 5645 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 2150 50  0001 C CNN
+F 3 "~" H 5600 2150 50  0001 C CNN
+	1    5600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 600C2847
+P 5600 1800
+F 0 "D22" V 5554 1880 50  0000 L CNN
+F 1 "D" V 5645 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 1800 50  0001 C CNN
+F 3 "~" H 5600 1800 50  0001 C CNN
+	1    5600 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 600C2841
+P 5600 1450
+F 0 "D21" V 5554 1530 50  0000 L CNN
+F 1 "D" V 5645 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 1450 50  0001 C CNN
+F 3 "~" H 5600 1450 50  0001 C CNN
+	1    5600 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 600C1556
+P 4800 2550
+F 0 "D20" V 4754 2630 50  0000 L CNN
+F 1 "D" V 4845 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4800 2550 50  0001 C CNN
+F 3 "~" H 4800 2550 50  0001 C CNN
+	1    4800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 600C1550
+P 4800 2150
+F 0 "D19" V 4754 2230 50  0000 L CNN
+F 1 "D" V 4845 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4800 2150 50  0001 C CNN
+F 3 "~" H 4800 2150 50  0001 C CNN
+	1    4800 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 600C154A
+P 4800 1800
+F 0 "D18" V 4754 1880 50  0000 L CNN
+F 1 "D" V 4845 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4800 1800 50  0001 C CNN
+F 3 "~" H 4800 1800 50  0001 C CNN
+	1    4800 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 600C1544
+P 4800 1450
+F 0 "D17" V 4754 1530 50  0000 L CNN
+F 1 "D" V 4845 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4800 1450 50  0001 C CNN
+F 3 "~" H 4800 1450 50  0001 C CNN
+	1    4800 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 600BFFE3
+P 4000 2550
+F 0 "D16" V 3954 2630 50  0000 L CNN
+F 1 "D" V 4045 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 2550 50  0001 C CNN
+F 3 "~" H 4000 2550 50  0001 C CNN
+	1    4000 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 600BFFDD
+P 4000 2150
+F 0 "D15" V 3954 2230 50  0000 L CNN
+F 1 "D" V 4045 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 2150 50  0001 C CNN
+F 3 "~" H 4000 2150 50  0001 C CNN
+	1    4000 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 600BFFD7
+P 4000 1800
+F 0 "D14" V 3954 1880 50  0000 L CNN
+F 1 "D" V 4045 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 1800 50  0001 C CNN
+F 3 "~" H 4000 1800 50  0001 C CNN
+	1    4000 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 600BFFD1
+P 4000 1450
+F 0 "D13" V 3954 1530 50  0000 L CNN
+F 1 "D" V 4045 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 1450 50  0001 C CNN
+F 3 "~" H 4000 1450 50  0001 C CNN
+	1    4000 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 600BE880
+P 3200 2550
+F 0 "D12" V 3154 2630 50  0000 L CNN
+F 1 "D" V 3245 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 2550 50  0001 C CNN
+F 3 "~" H 3200 2550 50  0001 C CNN
+	1    3200 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 600BE87A
+P 3200 2150
+F 0 "D11" V 3154 2230 50  0000 L CNN
+F 1 "D" V 3245 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 2150 50  0001 C CNN
+F 3 "~" H 3200 2150 50  0001 C CNN
+	1    3200 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 600BE874
+P 3200 1800
+F 0 "D10" H 3200 2017 50  0000 C CNN
+F 1 "D" V 3200 1926 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 1800 50  0001 C CNN
+F 3 "~" H 3200 1800 50  0001 C CNN
+	1    3200 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 600BE86E
+P 3200 1450
+F 0 "D9" V 3154 1530 50  0000 L CNN
+F 1 "D" V 3245 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 1450 50  0001 C CNN
+F 3 "~" H 3200 1450 50  0001 C CNN
+	1    3200 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 600BD255
+P 1600 2550
+F 0 "D4" V 1554 2630 50  0000 L CNN
+F 1 "D" V 1645 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1600 2550 50  0001 C CNN
+F 3 "~" H 1600 2550 50  0001 C CNN
+	1    1600 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 600BD24F
+P 1600 2150
+F 0 "D3" V 1554 2230 50  0000 L CNN
+F 1 "D" V 1645 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1600 2150 50  0001 C CNN
+F 3 "~" H 1600 2150 50  0001 C CNN
+	1    1600 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 600BD249
+P 1600 1800
+F 0 "D2" V 1554 1880 50  0000 L CNN
+F 1 "D" V 1645 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1600 1800 50  0001 C CNN
+F 3 "~" H 1600 1800 50  0001 C CNN
+	1    1600 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 600BD243
+P 1600 1450
+F 0 "D1" V 1554 1530 50  0000 L CNN
+F 1 "D" V 1645 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1600 1450 50  0001 C CNN
+F 3 "~" H 1600 1450 50  0001 C CNN
+	1    1600 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 600B8CDC
+P 2400 2550
+F 0 "D8" V 2354 2630 50  0000 L CNN
+F 1 "D" V 2445 2630 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2400 2550 50  0001 C CNN
+F 3 "~" H 2400 2550 50  0001 C CNN
+	1    2400 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 600B7F57
+P 2400 2150
+F 0 "D7" V 2354 2230 50  0000 L CNN
+F 1 "D" V 2445 2230 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2400 2150 50  0001 C CNN
+F 3 "~" H 2400 2150 50  0001 C CNN
+	1    2400 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 600B72A6
+P 2400 1800
+F 0 "D6" V 2354 1880 50  0000 L CNN
+F 1 "D" V 2445 1880 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2400 1800 50  0001 C CNN
+F 3 "~" H 2400 1800 50  0001 C CNN
+	1    2400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 600B4783
+P 2400 1450
+F 0 "D5" V 2354 1530 50  0000 L CNN
+F 1 "D" V 2445 1530 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2400 1450 50  0001 C CNN
+F 3 "~" H 2400 1450 50  0001 C CNN
+	1    2400 1450
+	0    1    1    0   
+$EndComp
+Connection ~ 6000 1950
+Wire Wire Line
+	6000 1950 6000 1600
+Connection ~ 6000 2300
+Wire Wire Line
+	6000 2300 6000 1950
+Wire Wire Line
+	6000 2700 6000 2300
+Connection ~ 5200 1950
+Wire Wire Line
+	5200 1600 5200 1950
+Connection ~ 5200 2300
+Wire Wire Line
+	5200 2300 5200 1950
+Wire Wire Line
+	5200 2700 5200 2300
+Connection ~ 4400 2300
+Wire Wire Line
+	4400 2700 4400 2300
+Connection ~ 4400 1950
+Wire Wire Line
+	4400 2300 4400 1950
+Wire Wire Line
+	4400 1600 4400 1950
+Connection ~ 3600 1950
+Wire Wire Line
+	3600 1600 3600 1950
+Connection ~ 3600 2300
+Wire Wire Line
+	3600 1950 3600 2300
+Wire Wire Line
+	3600 2700 3600 2300
+Wire Wire Line
+	2800 1950 2800 2300
+Connection ~ 2800 1950
+Connection ~ 2800 2300
+Wire Wire Line
+	2800 1600 2800 1950
+Wire Wire Line
+	2800 2300 2800 2700
+Connection ~ 2000 2300
+Wire Wire Line
+	2000 2300 2000 2700
+Connection ~ 2000 1950
+Wire Wire Line
+	2000 1950 2000 2300
+Wire Wire Line
+	2000 1600 2000 1950
+$Comp
+L Switch:SW_Push SW24
+U 1 1 600426B7
+P 5800 2700
+F 0 "SW24" H 5800 2985 50  0000 C CNN
+F 1 "SW_Push" H 5800 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_2.00u_PCB" H 5800 2900 50  0001 C CNN
+F 3 "~" H 5800 2900 50  0001 C CNN
+	1    5800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 600426B1
+P 5800 2300
+F 0 "SW23" H 5800 2585 50  0000 C CNN
+F 1 "SW_Push" H 5800 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 5800 2500 50  0001 C CNN
+F 3 "~" H 5800 2500 50  0001 C CNN
+	1    5800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 600426AB
+P 5800 1950
+F 0 "SW22" H 5800 2235 50  0000 C CNN
+F 1 "SW_Push" H 5800 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 5800 2150 50  0001 C CNN
+F 3 "~" H 5800 2150 50  0001 C CNN
+	1    5800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 600426A5
+P 5000 2700
+F 0 "SW20" H 5000 2985 50  0000 C CNN
+F 1 "SW_Push" H 5000 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.75u_PCB" H 5000 2900 50  0001 C CNN
+F 3 "~" H 5000 2900 50  0001 C CNN
+	1    5000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 6004269F
+P 5000 2300
+F 0 "SW19" H 5000 2585 50  0000 C CNN
+F 1 "SW_Push" H 5000 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 5000 2500 50  0001 C CNN
+F 3 "~" H 5000 2500 50  0001 C CNN
+	1    5000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 60042699
+P 5000 1950
+F 0 "SW18" H 5000 2235 50  0000 C CNN
+F 1 "SW_Push" H 5000 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 5000 2150 50  0001 C CNN
+F 3 "~" H 5000 2150 50  0001 C CNN
+	1    5000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 60042693
+P 5000 1600
+F 0 "SW17" H 5000 1885 50  0000 C CNN
+F 1 "SW_Push" H 5000 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 5000 1800 50  0001 C CNN
+F 3 "~" H 5000 1800 50  0001 C CNN
+	1    5000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 6004268D
+P 5800 1600
+F 0 "SW21" H 5800 1885 50  0000 C CNN
+F 1 "SW_Push" H 5800 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 5800 1800 50  0001 C CNN
+F 3 "~" H 5800 1800 50  0001 C CNN
+	1    5800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 60042687
+P 4200 2700
+F 0 "SW16" H 4200 2985 50  0000 C CNN
+F 1 "SW_Push" H 4200 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.25u_PCB" H 4200 2900 50  0001 C CNN
+F 3 "~" H 4200 2900 50  0001 C CNN
+	1    4200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW15
+U 1 1 60042681
+P 4200 2300
+F 0 "SW15" H 4200 2585 50  0000 C CNN
+F 1 "SW_Push" H 4200 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 4200 2500 50  0001 C CNN
+F 3 "~" H 4200 2500 50  0001 C CNN
+	1    4200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 6004267B
+P 4200 1950
+F 0 "SW14" H 4200 2235 50  0000 C CNN
+F 1 "SW_Push" H 4200 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 4200 2150 50  0001 C CNN
+F 3 "~" H 4200 2150 50  0001 C CNN
+	1    4200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 60042675
+P 4200 1600
+F 0 "SW13" H 4200 1885 50  0000 C CNN
+F 1 "SW_Push" H 4200 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 4200 1800 50  0001 C CNN
+F 3 "~" H 4200 1800 50  0001 C CNN
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 60037F3C
+P 3400 2700
+F 0 "SW12" H 3400 2985 50  0000 C CNN
+F 1 "SW_Push" H 3400 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 3400 2900 50  0001 C CNN
+F 3 "~" H 3400 2900 50  0001 C CNN
+	1    3400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 60037ABA
+P 3400 2300
+F 0 "SW11" H 3400 2585 50  0000 C CNN
+F 1 "SW_Push" H 3400 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 3400 2500 50  0001 C CNN
+F 3 "~" H 3400 2500 50  0001 C CNN
+	1    3400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 60037820
+P 3400 1950
+F 0 "SW10" H 3400 2235 50  0000 C CNN
+F 1 "SW_Push" H 3400 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 3400 2150 50  0001 C CNN
+F 3 "~" H 3400 2150 50  0001 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 600358EF
+P 2600 2700
+F 0 "SW8" H 2600 2985 50  0000 C CNN
+F 1 "SW_Push" H 2600 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 2600 2900 50  0001 C CNN
+F 3 "~" H 2600 2900 50  0001 C CNN
+	1    2600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 6003572E
+P 2600 2300
+F 0 "SW7" H 2600 2585 50  0000 C CNN
+F 1 "SW_Push" H 2600 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 2600 2500 50  0001 C CNN
+F 3 "~" H 2600 2500 50  0001 C CNN
+	1    2600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 600355B6
+P 2600 1950
+F 0 "SW6" H 2600 2235 50  0000 C CNN
+F 1 "SW_Push" H 2600 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 2600 2150 50  0001 C CNN
+F 3 "~" H 2600 2150 50  0001 C CNN
+	1    2600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW5
+U 1 1 60035245
+P 2600 1600
+F 0 "SW5" H 2600 1885 50  0000 C CNN
+F 1 "SW_Push" H 2600 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 2600 1800 50  0001 C CNN
+F 3 "~" H 2600 1800 50  0001 C CNN
+	1    2600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 6003480F
+P 3400 1600
+F 0 "SW9" H 3400 1885 50  0000 C CNN
+F 1 "SW_Push" H 3400 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 3400 1800 50  0001 C CNN
+F 3 "~" H 3400 1800 50  0001 C CNN
+	1    3400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 60034739
+P 1800 2700
+F 0 "SW4" H 1800 2985 50  0000 C CNN
+F 1 "SW_Push" H 1800 2894 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 1800 2900 50  0001 C CNN
+F 3 "~" H 1800 2900 50  0001 C CNN
+	1    1800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 60034520
+P 1800 2300
+F 0 "SW3" H 1800 2585 50  0000 C CNN
+F 1 "SW_Push" H 1800 2494 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 1800 2500 50  0001 C CNN
+F 3 "~" H 1800 2500 50  0001 C CNN
+	1    1800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 600342BF
+P 1800 1950
+F 0 "SW2" H 1800 2235 50  0000 C CNN
+F 1 "SW_Push" H 1800 2144 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 1800 2150 50  0001 C CNN
+F 3 "~" H 1800 2150 50  0001 C CNN
+	1    1800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 600339A4
+P 1800 1600
+F 0 "SW1" H 1800 1885 50  0000 C CNN
+F 1 "SW_Push" H 1800 1794 50  0000 C CNN
+F 2 "Custom Libraries & Footprints:SW_Cherry_MX_1.00u_PCB" H 1800 1800 50  0001 C CNN
+F 3 "~" H 1800 1800 50  0001 C CNN
+	1    1800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1300 10400 1300
+Wire Wire Line
+	9600 1650 10400 1650
+Wire Wire Line
+	9600 2400 10400 2400
+Wire Wire Line
+	10400 2000 9600 2000
+Connection ~ 9600 1300
+Wire Wire Line
+	8800 1300 9600 1300
+Connection ~ 9600 1650
+Wire Wire Line
+	8800 1650 9600 1650
+Connection ~ 9600 2400
+Wire Wire Line
+	8800 2400 9600 2400
+Connection ~ 9600 2000
+Wire Wire Line
+	9600 2000 8800 2000
+Connection ~ 8800 1300
+Wire Wire Line
+	8000 1300 8800 1300
+Connection ~ 8800 1650
+Wire Wire Line
+	8000 1650 8800 1650
+Connection ~ 8800 2400
+Wire Wire Line
+	8000 2400 8800 2400
+Connection ~ 8800 2000
+Wire Wire Line
+	8800 2000 8000 2000
+Connection ~ 8000 1300
+Wire Wire Line
+	7200 1300 8000 1300
+Connection ~ 8000 1650
+Wire Wire Line
+	7200 1650 8000 1650
+Connection ~ 8000 2000
+Wire Wire Line
+	8000 2000 7200 2000
+Connection ~ 8000 2400
+Wire Wire Line
+	7200 2400 8000 2400
+Connection ~ 7200 1300
+Wire Wire Line
+	6400 1300 7200 1300
+Connection ~ 7200 1650
+Wire Wire Line
+	6400 1650 7200 1650
+Connection ~ 7200 2400
+Wire Wire Line
+	6400 2400 7200 2400
+Connection ~ 7200 2000
+Wire Wire Line
+	7200 2000 6400 2000
+Connection ~ 6400 1300
+Wire Wire Line
+	5600 1300 6400 1300
+Connection ~ 6400 1650
+Wire Wire Line
+	5600 1650 6400 1650
+Connection ~ 6400 2000
+Wire Wire Line
+	5600 2000 6400 2000
+Connection ~ 6400 2400
+Wire Wire Line
+	5600 2400 6400 2400
+Connection ~ 5600 1300
+Wire Wire Line
+	4800 1300 5600 1300
+Connection ~ 5600 1650
+Wire Wire Line
+	4800 1650 5600 1650
+Connection ~ 5600 2400
+Wire Wire Line
+	4800 2400 5600 2400
+Connection ~ 5600 2000
+Wire Wire Line
+	4800 2000 5600 2000
+Connection ~ 4800 1300
+Wire Wire Line
+	4000 1300 4800 1300
+Connection ~ 4800 1650
+Wire Wire Line
+	4800 1650 4000 1650
+Connection ~ 4800 2000
+Wire Wire Line
+	4000 2000 4800 2000
+Connection ~ 4800 2400
+Wire Wire Line
+	4000 2400 4800 2400
+Connection ~ 4000 1300
+Wire Wire Line
+	3200 1300 4000 1300
+Connection ~ 4000 1650
+Wire Wire Line
+	3200 1650 4000 1650
+Connection ~ 4000 2400
+Wire Wire Line
+	3200 2400 4000 2400
+Connection ~ 4000 2000
+Wire Wire Line
+	3200 2000 4000 2000
+Connection ~ 3200 1300
+Wire Wire Line
+	2400 1300 3200 1300
+Connection ~ 3200 1650
+Wire Wire Line
+	2400 1650 3200 1650
+Connection ~ 3200 2000
+Wire Wire Line
+	2400 2000 3200 2000
+Connection ~ 3200 2400
+Wire Wire Line
+	2400 2400 3200 2400
+Connection ~ 2400 2400
+Wire Wire Line
+	1600 2400 2400 2400
+Connection ~ 2400 2000
+Wire Wire Line
+	1600 2000 2400 2000
+Connection ~ 2400 1650
+Wire Wire Line
+	1600 1650 2400 1650
+Connection ~ 2400 1300
+Wire Wire Line
+	1600 1300 2400 1300
+Connection ~ 1600 2400
+Wire Wire Line
+	1600 2400 1400 2400
+Connection ~ 1600 2000
+Wire Wire Line
+	1250 2000 1600 2000
+Connection ~ 1600 1650
+Wire Wire Line
+	1100 1650 1600 1650
+Connection ~ 1600 1300
+Wire Wire Line
+	950  1300 1600 1300
+Connection ~ 3600 2700
+Wire Wire Line
+	3600 2700 3600 3300
+Connection ~ 4400 2700
+Wire Wire Line
+	4400 2700 4400 3450
+Connection ~ 5200 2700
+Wire Wire Line
+	5200 2700 5200 3600
+Connection ~ 6000 2700
+Wire Wire Line
+	6000 2700 6000 3750
+Connection ~ 10800 2700
+Wire Wire Line
+	10800 2700 10800 4500
+Wire Wire Line
+	6200 5200 6000 5200
+Wire Wire Line
+	6100 5100 6000 5100
+Wire Wire Line
+	6200 4250 6200 5200
+Wire Wire Line
+	6100 4350 6100 5100
+Connection ~ 7600 2700
+Wire Wire Line
+	7600 2700 7600 4900
+Connection ~ 6800 2700
+Wire Wire Line
+	6800 2700 6800 5000
+Wire Wire Line
+	6000 5000 6800 5000
+Wire Wire Line
+	7600 4900 6000 4900
+Connection ~ 10000 2700
+Wire Wire Line
+	10000 2700 10000 4600
+Connection ~ 9200 2700
+Wire Wire Line
+	9200 2700 9200 4700
+Connection ~ 8400 2700
+Wire Wire Line
+	8400 2700 8400 4800
+Wire Wire Line
+	6000 4800 8400 4800
+Wire Wire Line
+	6000 4700 9200 4700
+Wire Wire Line
+	10000 4600 6000 4600
+Wire Wire Line
+	10800 4500 6000 4500
+Wire Wire Line
+	2300 2850 2300 4250
+Wire Wire Line
+	1400 2850 1400 2400
+Wire Wire Line
+	2300 2850 1400 2850
+Wire Wire Line
+	2300 4250 6200 4250
+Wire Wire Line
+	2150 4350 6100 4350
+Wire Wire Line
+	2150 3000 1250 3000
+Wire Wire Line
+	2150 4350 2150 3000
+Wire Wire Line
+	950  1300 950  5100
+Wire Wire Line
+	1100 1650 1100 5200
+Wire Wire Line
+	1250 2000 1250 3000
+Connection ~ 2000 2700
+Wire Wire Line
+	2000 2700 2000 4500
+Connection ~ 2800 2700
+Wire Wire Line
+	2800 2700 2800 3150
+Wire Wire Line
+	1100 5200 4800 5200
+Wire Wire Line
+	950  5100 4800 5100
+Wire Wire Line
+	1250 5000 4800 5000
+Wire Wire Line
+	1400 4900 4800 4900
+Wire Wire Line
+	1550 4800 4800 4800
+Wire Wire Line
+	1700 4700 4800 4700
+Wire Wire Line
+	1850 4600 4800 4600
+Wire Wire Line
+	2000 4500 4800 4500
+Wire Wire Line
+	1850 3150 1850 4600
+Wire Wire Line
+	1700 3300 1700 4700
+Wire Wire Line
+	1550 3450 1550 4800
+Wire Wire Line
+	1400 4900 1400 3600
+Wire Wire Line
+	1250 3750 1250 5000
+Wire Wire Line
+	6000 3750 1250 3750
+Wire Wire Line
+	1400 3600 5200 3600
+Wire Wire Line
+	4400 3450 1550 3450
+Wire Wire Line
+	3600 3300 1700 3300
+Wire Wire Line
+	2800 3150 1850 3150
+$EndSCHEMATC
