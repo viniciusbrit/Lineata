@@ -1,6 +1,6 @@
 # Lineata
 A 40% 48 key ortholinear keyboard tilted 24 degrees in each side.
-* Current Version: Prototype V0.1
+* Current Iteration: Prototype 0.1
 
 > This keyboard is made to my desired specifications. It is small, ergonomic and fully open source!
 
